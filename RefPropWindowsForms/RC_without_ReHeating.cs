@@ -65,8 +65,7 @@ namespace RefPropWindowsForms
         public Int64 N_sub_hxrs;
         public Double tol;
         public Int64 Error_code;
-        public core.RecompCycle recomp_cycle = new core.RecompCycle();
-
+        
         //Parameters
         public Int64 max_iter = 10;
         public Double temperature_tolerance = 1.0e-6;  // temperature differences below this are considered zero
